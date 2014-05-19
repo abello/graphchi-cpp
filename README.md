@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GraphChi - disk-based large-scale graph computation
 
 **NOTE: This project has been recently moved from Google Code, and some of the wiki pages might be partly broken.**
@@ -134,3 +135,9 @@ Apache [Giraph](http://giraph.apache.org/) is an open-source implementation of t
 
 
 
+=======
+graphchi-cpp
+============
+
+Clone of Graphchi, modified for Caltech CS156
+>>>>>>> 53a7944cb28175c75bbfbab1da2b86d57e99bd82
