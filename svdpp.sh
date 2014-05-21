@@ -57,12 +57,14 @@ PRED="data/qualprobe.pred"
 # --test=$PRED --D=25
 
 
+# 0.29% above water
 ./toolkits/collaborative_filtering/svdpp --training=$UMR \
---svdpp_item_bias_step=0.005 --svdpp_user_bias_step=0.018 --svdpp_user_factor_step=0.009 \
---svdpp_user_factor2_step=0.009 --svdpp_item_bias_reg=0.06 --svdpp_user_bias_reg=0.060 \
---svdpp_user_factor_reg=0.160 --svdpp_user_factor2_reg=0.160  \
+--svdpp_item_bias_step=0.006 --svdpp_user_bias_step=0.019 --svdpp_user_factor_step=0.010 \
+--svdpp_user_factor2_step=0.01 --svdpp_item_bias_reg=0.12 --svdpp_user_bias_reg=0.130 \
+--svdpp_user_factor_reg=0.190 --svdpp_user_factor2_reg=0.190  \
 --minval=1 --maxval=5 --max_iter=25 --quiet=1 \
 --test=$PRED --D=20
+
 
 
 cd data && python parse.py
