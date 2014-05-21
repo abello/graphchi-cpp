@@ -1,0 +1,126 @@
+[1;32mWARNING:  common.hpp(print_copyright:206): GraphChi Collaborative filtering library is written by Danny Bickson (c). Send any  comments or bug reports to danny.bickson@gmail.com 
+[0m[training] => [data/umr-noprobe.dta]
+[validation] => [data/probe-validation]
+[minval] => [1]
+[maxval] => [5]
+[rbm_mult_step_dec] => [0.999]
+[rbm_alpha] => [0.001]
+[rbm_beta] => [0.002]
+[rbm_bins] => [6]
+[max_iter] => [150]
+[quiet] => [1]
+[test] => [data/qualprobe.pred]
+[D] => [200]
+
+ === REPORT FOR sharder() ===
+[Timings]
+edata_flush:		6.21504s	 (count: 375, min: 0.016328s, max: 0.0176, avg: 0.0165734s)
+execute_sharding:		20.1231 s
+finish_shard.sort:		7.48225 s
+preprocessing:		36.9817 s
+shard_final:		16.6693 s
+[Other]
+app:	sharder
+
+ === REPORT FOR sharder() ===
+[Timings]
+edata_flush:		0.091103s	 (count: 6, min: 0.004213s, max: 0.017562, avg: 0.0151838s)
+execute_sharding:		0.246494 s
+finish_shard.sort:		0.073494 s
+preprocessing:		0.534326 s
+shard_final:		0.195588 s
+[Other]
+app:	sharder
+[feature_width] => [200]
+[users] => [458293]
+[movies] => [17770]
+[training_ratings] => [98291669]
+[number_of_threads] => [16]
+[membudget_Mb] => [55000]
+   79.6592) Iteration:   0 Training RMSE:         0
+   79.9212) Iteration:   1 Training RMSE:         0
+   169.835) Iteration:   2 Training RMSE:  0.869675  Validation  RMSE:  0.953074
+   260.412) Iteration:   3 Training RMSE:  0.828058  Validation  RMSE:  0.931742
+   350.754) Iteration:   4 Training RMSE:  0.813636  Validation  RMSE:  0.925446
+   444.221) Iteration:   5 Training RMSE:  0.805082  Validation  RMSE:  0.921561
+    534.84) Iteration:   6 Training RMSE:  0.799104  Validation  RMSE:  0.919045
+   628.538) Iteration:   7 Training RMSE:  0.794606  Validation  RMSE:  0.917661
+   719.293) Iteration:   8 Training RMSE:  0.790946  Validation  RMSE:  0.915871
+   811.933) Iteration:   9 Training RMSE:  0.787879  Validation  RMSE:  0.915203
+   905.189) Iteration:  10 Training RMSE:   0.78532  Validation  RMSE:  0.914249
+    996.79) Iteration:  11 Training RMSE:  0.783003  Validation  RMSE:  0.913511
+    1087.5) Iteration:  12 Training RMSE:  0.781083  Validation  RMSE:  0.912797
+   1180.85) Iteration:  13 Training RMSE:  0.779245  Validation  RMSE:  0.912288
+   1271.77) Iteration:  14 Training RMSE:  0.777696  Validation  RMSE:  0.911899
+   1364.78) Iteration:  15 Training RMSE:  0.776306  Validation  RMSE:  0.911297
+   1456.95) Iteration:  16 Training RMSE:  0.774964  Validation  RMSE:  0.911015
+   1549.34) Iteration:  17 Training RMSE:   0.77371  Validation  RMSE:  0.911057
+    1640.7) Iteration:  18 Training RMSE:  0.772582  Validation  RMSE:  0.910557
+   1731.74) Iteration:  19 Training RMSE:  0.771504  Validation  RMSE:  0.910451
+    1820.8) Iteration:  20 Training RMSE:  0.770451  Validation  RMSE:  0.910299
+   1913.26) Iteration:  21 Training RMSE:  0.769482  Validation  RMSE:  0.910328
+   2004.53) Iteration:  22 Training RMSE:  0.768612  Validation  RMSE:  0.909941
+   2094.43) Iteration:  23 Training RMSE:  0.767801  Validation  RMSE:  0.909488
+   2184.26) Iteration:  24 Training RMSE:  0.767055  Validation  RMSE:  0.909644
+   2275.94) Iteration:  25 Training RMSE:  0.766297  Validation  RMSE:  0.909662
+    2366.8) Iteration:  26 Training RMSE:  0.765511  Validation  RMSE:  0.909588
+   2459.16) Iteration:  27 Training RMSE:  0.764823  Validation  RMSE:  0.909487
+   2548.28) Iteration:  28 Training RMSE:  0.764178  Validation  RMSE:  0.909254
+   2642.18) Iteration:  29 Training RMSE:  0.763502  Validation  RMSE:  0.909104
+   2734.27) Iteration:  30 Training RMSE:  0.762911  Validation  RMSE:  0.909418
+   2827.16) Iteration:  31 Training RMSE:  0.762311  Validation  RMSE:  0.909183
+   2918.17) Iteration:  32 Training RMSE:  0.761734  Validation  RMSE:  0.909078
+   3009.14) Iteration:  33 Training RMSE:  0.761211  Validation  RMSE:  0.909271
+   3101.95) Iteration:  34 Training RMSE:  0.760656  Validation  RMSE:   0.90875
+   3194.43) Iteration:  35 Training RMSE:  0.760118  Validation  RMSE:  0.908727
+   3286.27) Iteration:  36 Training RMSE:  0.759638  Validation  RMSE:  0.909178
+   3380.82) Iteration:  37 Training RMSE:  0.759134  Validation  RMSE:  0.909255
+   3473.26) Iteration:  38 Training RMSE:   0.75871  Validation  RMSE:  0.909355
+   3563.88) Iteration:  39 Training RMSE:  0.758237  Validation  RMSE:  0.909359
+   3655.83) Iteration:  40 Training RMSE:  0.757829  Validation  RMSE:  0.909177
+   3746.77) Iteration:  41 Training RMSE:  0.757395  Validation  RMSE:  0.909108
+   3837.42) Iteration:  42 Training RMSE:  0.756939  Validation  RMSE:  0.909196
+   3926.96) Iteration:  43 Training RMSE:  0.756534  Validation  RMSE:  0.909332
+   4018.03) Iteration:  44 Training RMSE:  0.756165  Validation  RMSE:   0.90923
+    4107.8) Iteration:  45 Training RMSE:  0.755783  Validation  RMSE:  0.909329
+   4197.39) Iteration:  46 Training RMSE:  0.755374  Validation  RMSE:  0.909275
+   4286.93) Iteration:  47 Training RMSE:  0.755002  Validation  RMSE:  0.909037
+   4377.03) Iteration:  48 Training RMSE:  0.754666  Validation  RMSE:  0.909161
+   4466.06) Iteration:  49 Training RMSE:  0.754272  Validation  RMSE:  0.909375
+   4558.55) Iteration:  50 Training RMSE:  0.753938  Validation  RMSE:   0.90913
+   4651.58) Iteration:  51 Training RMSE:  0.753593  Validation  RMSE:  0.909197
+   4743.88) Iteration:  52 Training RMSE:  0.753263  Validation  RMSE:  0.909359
+   4836.55) Iteration:  53 Training RMSE:  0.752866  Validation  RMSE:  0.909273
+   4927.04) Iteration:  54 Training RMSE:  0.752585  Validation  RMSE:  0.909356
+   5016.34) Iteration:  55 Training RMSE:  0.752339  Validation  RMSE:  0.909342
+   5108.95) Iteration:  56 Training RMSE:  0.751993  Validation  RMSE:  0.909237
+   5202.86) Iteration:  57 Training RMSE:  0.751705  Validation  RMSE:  0.909428
+   5294.63) Iteration:  58 Training RMSE:  0.751402  Validation  RMSE:  0.909389
+    5386.2) Iteration:  59 Training RMSE:  0.751152  Validation  RMSE:  0.909367
+   5478.74) Iteration:  60 Training RMSE:  0.750866  Validation  RMSE:  0.909535
+   5573.24) Iteration:  61 Training RMSE:   0.75053  Validation  RMSE:  0.909403
+./rbm.sh: line 60: 12713 Terminated              ./toolkits/collaborative_filtering/rbm --training=$UMR --validation=$VAL --minval=1 --maxval=5 --rbm_mult_step_dec=0.999 --rbm_alpha=0.001 --rbm_beta=0.002 --rbm_bins=6 --max_iter=150 --quiet=1 --test=$PRED --D=200
+[1;32mWARNING:  common.hpp(print_copyright:206): GraphChi Collaborative filtering library is written by Danny Bickson (c). Send any  comments or bug reports to danny.bickson@gmail.com 
+[0m[training] => [data/umr-noprobe.dta]
+[validation] => [data/probe-validation]
+[minval] => [1]
+[maxval] => [5]
+[rbm_mult_step_dec] => [0.999]
+[rbm_alpha] => [0.001]
+[rbm_beta] => [0.002]
+[rbm_bins] => [6]
+[max_iter] => [150]
+[quiet] => [1]
+[test] => [data/qualprobe.pred]
+[D] => [400]
+[feature_width] => [400]
+[users] => [458293]
+[movies] => [17770]
+[training_ratings] => [98291669]
+[number_of_threads] => [16]
+[membudget_Mb] => [55000]
+./rbm.sh: line 67: 20704 Terminated              ./toolkits/collaborative_filtering/rbm --training=$UMR --validation=$VAL --minval=1 --maxval=5 --rbm_mult_step_dec=0.999 --rbm_alpha=0.001 --rbm_beta=0.002 --rbm_bins=6 --max_iter=150 --quiet=1 --test=$PRED --D=400
+Traceback (most recent call last):
+  File "parse.py", line 1, in <module>
+    f = open("qualprobe.pred.predict", "r")
+IOError: [Errno 2] No such file or directory: 'qualprobe.pred.predict'
