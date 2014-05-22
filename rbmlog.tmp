@@ -1,0 +1,37 @@
+[1;32mWARNING:  common.hpp(print_copyright:206): GraphChi Collaborative filtering library is written by Danny Bickson (c). Send any  comments or bug reports to danny.bickson@gmail.com 
+[0m[training] => [data/umr-noprobe.dta]
+[validation] => [data/probe-validation]
+[minval] => [1]
+[maxval] => [5]
+[rbm_mult_step_dec] => [0.999]
+[rbm_alpha] => [0.001]
+[rbm_beta] => [0.002]
+[rbm_bins] => [6]
+[max_iter] => [150]
+[quiet] => [1]
+[test] => [data/qualprobe.pred]
+[D] => [400]
+[feature_width] => [400]
+[users] => [458293]
+[movies] => [17770]
+[training_ratings] => [98291669]
+[number_of_threads] => [16]
+[membudget_Mb] => [55000]
+   17.3906) Iteration:   0 Training RMSE:         0
+   17.8925) Iteration:   1 Training RMSE:         0
+   191.529) Iteration:   2 Training RMSE:  0.859025  Validation  RMSE:  0.953874
+   367.925) Iteration:   3 Training RMSE:  0.814734  Validation  RMSE:  0.932402
+   542.843) Iteration:   4 Training RMSE:  0.799016  Validation  RMSE:  0.926835
+    721.53) Iteration:   5 Training RMSE:  0.789276  Validation  RMSE:  0.923058
+   900.023) Iteration:   6 Training RMSE:  0.782414  Validation  RMSE:  0.920504
+   1074.12) Iteration:   7 Training RMSE:  0.776971  Validation  RMSE:  0.919039
+    1247.9) Iteration:   8 Training RMSE:  0.772362  Validation  RMSE:  0.917774
+   1422.94) Iteration:   9 Training RMSE:  0.768383  Validation  RMSE:  0.916924
+   1599.37) Iteration:  10 Training RMSE:  0.764971  Validation  RMSE:  0.915869
+   1775.15) Iteration:  11 Training RMSE:  0.761964  Validation  RMSE:  0.915529
+   1954.32) Iteration:  12 Training RMSE:  0.759146  Validation  RMSE:  0.914574
+./rbm.sh: line 67: 21068 Terminated              ./toolkits/collaborative_filtering/rbm --training=$UMR --validation=$VAL --minval=1 --maxval=5 --rbm_mult_step_dec=0.999 --rbm_alpha=0.001 --rbm_beta=0.002 --rbm_bins=6 --max_iter=150 --quiet=1 --test=$PRED --D=400
+Traceback (most recent call last):
+  File "parse.py", line 1, in <module>
+    f = open("qualprobe.pred.predict", "r")
+IOError: [Errno 2] No such file or directory: 'qualprobe.pred.predict'

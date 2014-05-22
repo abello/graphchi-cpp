@@ -1,0 +1,46 @@
+[1;32mWARNING:  common.hpp(print_copyright:206): GraphChi Collaborative filtering library is written by Danny Bickson (c). Send any  comments or bug reports to danny.bickson@gmail.com 
+[0m[training] => [data/umr-noprobe.dta]
+[validation] => [data/probe-validation]
+[minval] => [1]
+[maxval] => [5]
+[rbm_mult_step_dec] => [0.999]
+[rbm_alpha] => [0.001]
+[rbm_beta] => [0.002]
+[rbm_bins] => [6]
+[max_iter] => [25]
+[quiet] => [1]
+[test] => [data/qualprobe.pred]
+[D] => [400]
+[feature_width] => [400]
+[users] => [458293]
+[movies] => [17770]
+[training_ratings] => [98291669]
+[number_of_threads] => [16]
+[membudget_Mb] => [55000]
+    16.766) Iteration:   0 Training RMSE:         0
+   17.2659) Iteration:   1 Training RMSE:         0
+   194.528) Iteration:   2 Training RMSE:  0.859062  Validation  RMSE:   0.95369
+   369.415) Iteration:   3 Training RMSE:  0.814552  Validation  RMSE:  0.932598
+   545.374) Iteration:   4 Training RMSE:  0.798887  Validation  RMSE:  0.926751
+   721.196) Iteration:   5 Training RMSE:  0.789086  Validation  RMSE:  0.923486
+    898.35) Iteration:   6 Training RMSE:  0.782116  Validation  RMSE:  0.921647
+   1074.86) Iteration:   7 Training RMSE:  0.776595  Validation  RMSE:  0.918455
+   1250.83) Iteration:   8 Training RMSE:  0.772047  Validation  RMSE:  0.917574
+   1426.07) Iteration:   9 Training RMSE:   0.76815  Validation  RMSE:   0.91623
+   1604.45) Iteration:  10 Training RMSE:  0.764788  Validation  RMSE:  0.916158
+   1783.35) Iteration:  11 Training RMSE:  0.761804  Validation  RMSE:  0.914818
+   1963.16) Iteration:  12 Training RMSE:  0.759064  Validation  RMSE:  0.914505
+   2143.12) Iteration:  13 Training RMSE:  0.756585  Validation  RMSE:  0.913747
+   2322.13) Iteration:  14 Training RMSE:  0.754267  Validation  RMSE:  0.913668
+   2498.64) Iteration:  15 Training RMSE:  0.752216  Validation  RMSE:  0.913537
+   2674.49) Iteration:  16 Training RMSE:  0.750204  Validation  RMSE:  0.913053
+   2855.86) Iteration:  17 Training RMSE:  0.748433  Validation  RMSE:  0.913296
+   3035.52) Iteration:  18 Training RMSE:  0.746628  Validation  RMSE:  0.913158
+   3214.15) Iteration:  19 Training RMSE:  0.744992  Validation  RMSE:    0.9128
+   3392.53) Iteration:  20 Training RMSE:    0.7434  Validation  RMSE:  0.912665
+    3571.3) Iteration:  21 Training RMSE:  0.741896  Validation  RMSE:  0.912602
+   3750.56) Iteration:  22 Training RMSE:   0.74048  Validation  RMSE:  0.912158
+   3928.41) Iteration:  23 Training RMSE:  0.739029  Validation  RMSE:  0.912597
+   4106.73) Iteration:  24 Training RMSE:  0.737706  Validation  RMSE:  0.912145
+Finished writing 4124637 predictions to file: data/qualprobe.pred.predict
+Parsed

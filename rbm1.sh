@@ -51,7 +51,7 @@ VAL="data/probe-validation"
 # --D=200 \
 
 
-./toolkits/collaborative_filtering/rbm --training=$UMR --minval=1 --maxval=5  \
+./toolkits/collaborative_filtering/rbm --training=$UMR --validation=$VAL --minval=1 --maxval=5  \
 --rbm_mult_step_dec=0.999 --rbm_alpha=0.001 --rbm_beta=0.002 --rbm_bins=6 \
 --max_iter=40 --quiet=1 --test=$PRED \
 --D=400 \
